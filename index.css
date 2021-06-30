@@ -1,0 +1,59 @@
+.header{
+    background: url(./assests/images/Banner_mage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container{
+    background-color: #fff;
+}
+
+.form-control{
+    border-radius: unset;
+}
+
+.bitmap {
+    width: 50px;
+    height: 50px;
+  }
+
+  .rectangle,.know-more {
+     background-image: linear-gradient(to right, #3cafc6 , #5e7ae8);
+    border-radius: 4px;
+    color: #fff;
+  }
+
+  .btn-danger{
+      background: #dd5a6a;
+  }
+  .doctors, .pediatric-bmt h4:first-child {
+      color: #22b78e;
+  }
+  .pediatric-bmt{
+      background-color: #f9f9ff;
+      border-radius: 4px;
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+  }
+
+  .pediatric-bmt h4:first-child{
+      margin-bottom: 2.5rem;
+  }
+  .pediatric-bmt h4.name {
+    color: #3169af;
+    margin-top: 1.5rem;
+}
+.qualific{
+    margin-bottom: unset;
+    color: #6d94c7;
+}
+
+/* change list bullet */
+ul.plus {
+    list-style-image: url('/assests/images/hospital\ \(2\)\ copy\ 3.png');
+    padding: 0rem 0 0 1.3rem;
+    }
+ul.plus li{
+    margin: 0 0 1rem 0;
+}
