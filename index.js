@@ -52,7 +52,6 @@ $(function() {
         }
     ]
 
-    
     for(let key in warningS){
         $('.deficiency').append(`<div class="col-md-3 col-12 warning-sign pb-4"><div class="p-4 h-100">
         <img src="${warningS[key].image1}" alt="">
@@ -82,7 +81,6 @@ $(function() {
         }
     ]
     for(let key in faq){
-        console.log(faq[key])
     $('.faq').append(`<div class="collapse-acc">
     <div class="row">
         <div class="col-9 col-md-11 ques">
