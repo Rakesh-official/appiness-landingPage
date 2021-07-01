@@ -9,17 +9,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Bone Marrow</title>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
-    
     <!-- Custom css -->
     <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
     <!-- BEGIN: Header-->
         <div class="header p-4 row justify-content-center">
-            <div class="col-9">
+            <div class="col-md-9 col-12">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-md-8 col-12 text-white">
                         <div class="mb-5">
@@ -31,7 +27,7 @@
                         <div>
                             <h3 class="w-75 font-weight-bold">ADULT & PAEDIATRIC BONE MARROW TRANSPLANT PROGRAMME</h3>
                             <p style="font-size: 2rem;">Haematology &#124; Oncology &#124; Immunology</p>
-                            <button class="btn btn-danger py-2">Book An Appoinment</button>
+                            <button class="btn btn-danger py-2 appoint-res">Book An Appoinment</button>
                         </div>
                     </div>
                     <div class="col-md-4 col-12 form-container p-4">
@@ -66,10 +62,9 @@
         </div>
     <!-- END: Header-->
 
-
-    <!-- BEGIN: Main Menu-->
+    <!-- BEGIN: Content-->
     <div class="p-3 row justify-content-center">
-        <div class="col-9">
+        <div class="col-md-9 col-12">
             <div class="row justify-content-center my-4">
                 <div class="col-md-5 col-12">
                     <img class="img-fluid" src="./assests/images/Group 3.png" alt="">
@@ -90,15 +85,15 @@
                     <div class="pediatric-bmt">
                         <h4 class="font-weight-bold text-center" >Pediatric BMT</h4>
                         <div class="text-center count-these"></div>
-                        <hr class="my-5" style="width: 75%;">
+                        <hr class="my-5 mx-auto" style="width: 75%;">
                         <div class="text-center count-these"></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 ">
-                    <div class="pediatric-bmt">
+                    <div class="pediatric-bmt adult-bmt">
                         <h4 class="font-weight-bold text-center" >Adult BMT</h4>
                         <div class="text-center count-these"></div>
-                        <hr class="my-5" style="width: 75%;">
+                        <hr class="my-5 mx-auto" style="width: 75%;">
                         <div class="text-center count-these"></div>
                     </div>
                 </div>
@@ -111,18 +106,83 @@
                 <li>Haplo-Identical Bone Marrow Transplant-Replacement of diseased or detective marrow with marrow from the parent</li>
                 <li>Umbical cord Bone Marrow Transplant - Replacement of diseased or defective marrow with marrow from a genetically (HLA) Matched umbilical cord donor obtained from umbilical cord registries in india and abroad</li>
             </ul>
-            <h3 class="font-weight-bold mt-5 mb-4  doctors" >The warning signs of Immune deficiency</h3>
-            .row.mx-0
+            <h3 class="font-weight-bold my-5  doctors" >The warning signs of Immune deficiency</h3>
+            <div class="row deficiency mb-5"> </div>
+            <div class="faq mb-5">
+                <div class="expandable">
+                    <div class="row">
+                        <div class="col-9 col-md-11 ques">
+                            <h5 class="font-weight-bold mb-0">What are the conditions that requires Bone Marrow Transplant?</h4>
+                        </div>
+                        <div class="col-2 col-md-1 text-right">
+                            <img src="./assests/images/down-arrow.png" alt="expand">
+                        </div>
+                    </div>
+                    <hr>
+                    <ul class="mb-5">
+                        <li class="answer mb-2">
+                            <p class="m-0">
+                                BMT is the treatment of choice for blood disorders like Thalassemia, Sickle Cell anemia, bone marrow failure syndromes like Aplastic anemia, serious immune deficiencies and certain genetic metabolic disorders.
+                            </p>
+                        </li>
+                        <li class="answer">
+                            <p class="m-0">
+                                It is also used to treat high risk cancers like some cases of Acute Lymphoblastic Leukemia, Acute Myeloid Leukemia, Multipe Myeloma and solid tumours like Neuroblastoma, Ewings Sarcoma and certain relapsed cancers like Lymphomas
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="testimonials mt-5 mb-4 align-items-center ">
+                <div class="row mb-4">
+                    <h3 class="font-weight-bold doctors col-md-11 col-8" >Testimonials</h3>
+                    <div class="col-md-1 col-4">
+                        <img src="./assests/images/left-arrow (6).png" alt="scroll">
+                        <img src="./assests/images/left-arrow (6) copy.png" alt="scroll">
+                    </div>
+                </div>
+                <p class="mb-5 w-50">
+                    It is a long established fact that a reader will be distracted by the redable content of a page when looking at its layout.
+                </p>
+            </div>
+        </div>
+        <div class="col-12 testimony">
+            <div class="d-flex" style="width: 122%;">
+                <div class="append-quote col"></div>
+                <div class="append-quote col"></div>
+                <div class="append-quote col"></div>
+            </div>
+        </div>
+        <div class="col-12 my-5 text-center">
+            <button class="btn btn-primary p-3 font-weight-bold ">Book An Appoinment</button>
         </div>
     </div>
-    <!-- END: Main Menu-->
-
-    <!-- BEGIN: Content-->
-    
     <!-- END: Content-->
 
     <!-- BEGIN: Footer-->
-    <footer></footer>
+    <footer>
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-12">
+                <div class="d-flex justify-content-center mt-5 mb-4">
+                    <div class="col-4">
+                        <div class="d-flex justify-content-center">
+                            <img class="mx-1" src="./assests/images/Group 10.png" alt="">
+                            <img class="mx-1" src="./assests/images/Group 26.png" alt="">
+                            <img class="mx-1" src="./assests/images/003-youtube 2.png" alt="">
+                            <img class="mx-1" src="./assests/images/005-twitter 2.png" alt="">
+                            <img class="mx-1" src="./assests/images/006-linkedin 2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <hr class="mb-3" style="background: rgb(255 255 255 / 10%);">
+                <p class="mb-5 text-muted text-center">Aster CMI. All Rights Reserved</p>
+                <div class="scrollToTop" >
+                    <img src="./assests/images/Group 9.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+   
     <!-- END: Footer-->
 
     <!-- Optional JavaScript -->
