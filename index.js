@@ -4,7 +4,7 @@ $(function() {
         <h4 class="font-weight-bold name" >Dr. Vijay Agarwal</h4>
         <p class="qualific">MD, MRCP, PhD.CCT</p>
         <p class="qualific"> Lead & Sr. Consultant - Medical Oncology & Haematology</p>
-        <hr class="mx-auto" style="width: 10%;">
+        <hr class="mx-auto bg-dark" style="width: 10%;">
         <p class="mb-0 w-75 mx-auto mb-4"> Dr. Vijay Agarwal is a Senior Consultant Medical Oncologist with over 12 years of experiance in Oncology. Dr. Agarwal has been practising Medical Oncology since 2004</p>
         <a href="#" class="btn know-more px-4 py-2">Know more</a>`);
 
@@ -85,7 +85,7 @@ $(function() {
         console.log(faq[key])
     $('.faq').append(`<div class="collapse-acc">
     <div class="row">
-        <div class="col-9 col-md-11 ques>
+        <div class="col-9 col-md-11 ques">
             <h5 class="font-weight-bold mb-0">${faq[key].content}</h4>
         </div>
         <div class="col-2 col-md-1 text-right">
